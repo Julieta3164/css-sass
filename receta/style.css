@@ -1,5 +1,5 @@
 body{
-    background: rgb(183, 183, 242);
+    background: white;
 }
 header{
     text-align: center;
@@ -20,7 +20,6 @@ img{
 #section-b {
     display: grid;
     padding: 2em 1em 1em;
-    background-color: #333;
   }
 
   #section-b ul {
