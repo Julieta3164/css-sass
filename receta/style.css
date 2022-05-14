@@ -1,3 +1,10 @@
 body{
-    background:
+    background-color: rgb(244, 215, 158);
+}
+
+header img{
+    display: flex;
+     width: 100%;
+     margin: 1%;
+     padding: 1%;
 }
