@@ -8,10 +8,9 @@ h1 {
 
 }
 
-#contenedor {
+main{
     display: flex;
     justify-content: center;
-
 }
 
 .triangulo {
@@ -21,6 +20,7 @@ h1 {
     border-right: 50px solid transparent;
     border-bottom: 100px solid yellow;
 }
+
 .triangulo:hover{
     margin: 2%;
     width: 0;
@@ -59,7 +59,7 @@ h1 {
     background: rgb(85, 233, 36);
 }
 
-.btn{
+footer{
     display: flex;
     justify-content: center;
 }
