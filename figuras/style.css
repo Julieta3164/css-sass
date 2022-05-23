@@ -1,22 +1,72 @@
+body{
+    margin: auto
+}
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+
+}
+
+#contenedor {
+    display: flex;
+    justify-content: center;
+
+}
+
 .triangulo {
-    margin: 3%;
+    margin: 2%;
     width: 0;
     border-left: 50px solid transparent;
     border-right: 50px solid transparent;
     border-bottom: 100px solid yellow;
 }
+.triangulo:hover{
+    margin: 2%;
+    width: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid orangered;
+}
+
 
 .cuadrado {
-    margin: 3%;
+    margin: 2%;
     width: 100px;
     height: 100px;
     background: red;
 }
 
-.circulo{
-    margin: 3%;
-    border-radius:50%;
-width: 100px;
-height: 100px;
-background: blue;
+.cuadrado:hover {
+    margin: 2%;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(205, 18, 167); 
+}
+
+.circulo {
+    margin: 2%;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background: blue;
+}
+.circulo:hover{
+    margin: 2%;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background: rgb(85, 233, 36);
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+.reset{
+    background-color: rgb(171, 164, 164);
+    border: solid 2px;
+    width: 90px;
+    height: 30px;
 }
