@@ -1,0 +1,169 @@
+body {
+    margin: 5%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow:row;
+    grid-template-areas:
+        "header header header header"
+        "main main main main"
+        "main main main main"
+        "footer footer footer footer";
+    border: solid 1px black;
+
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 80%;
+    gap: 0px 0px;
+    row-gap:0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "a b";
+    grid-area: header;
+}
+
+.a {
+    grid-area: a;
+    border: solid 1px black;
+    margin: 3%; 
+}
+
+.a h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    text-align: center;  
+}
+
+.b {
+    grid-area: b;
+    border: solid 1px black;
+    margin: 3%; 
+}
+
+.b img {
+    width: 100%;
+    height: 100%;   
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "c d e f"
+        "g g e h";
+    grid-area: main;
+}
+
+.c {
+    grid-area: c;
+    border: solid 1px black;
+    margin: 4%; 
+}
+
+.c img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.d {
+    grid-area: d;
+    border: solid 1px black;
+    margin: 4%; 
+}
+.d img{
+    width: 100%;
+    height: 100%;
+}
+
+.e {
+    grid-area: e;
+    border: solid 1px black;
+    margin: 4%;
+}
+.e img{
+    width: 100%;
+    height: 100%;
+}
+
+.f {
+    grid-area: f;
+    border: solid 1px black;
+    margin: 4%;
+}
+.f img{
+    width: 100%;
+    height: 100%;
+}
+
+.g {
+    grid-area: g;
+    border: solid 1px black;
+    margin: 4%;
+}
+.g img{
+    width: 100%;
+    height: 100%;
+}
+
+.h {
+    grid-area: h;
+    border: solid 1px black;
+    margin: 4%;
+}
+.h img{
+    width: 100%;
+    height: 100%;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "i j k k";
+    grid-area: footer;
+}
+
+.i {
+    grid-area: i;
+    border: solid 1px black;
+    margin: 4%;
+}
+.i img {
+    width: 100%;
+    height: 100%;   
+}
+
+.j {
+    grid-area: j;
+    border: solid 1px black;
+    margin: 4%;
+}
+.j img {
+    width: 100%;
+    height: 100%;   
+}
+
+.k {
+    grid-area: k;
+    border: solid 1px black;
+    margin: 4%;
+}
+.k img {
+    width: 100%;
+    height: 100%;   
+}
